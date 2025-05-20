@@ -340,7 +340,7 @@ if goal:
             st.markdown(f"[Full Recipe]({info['strSource'] or 'https://www.themealdb.com'})")
             st.divider()
 
-user_email = st.text_input("📧 Enter your email to receive a summary and recipes' ingredients. (Send button, at the end of the recipes)", "")
+user_email = st.text_input("📧 Enter your email to receive a summary and recipes' ingredients.", "")
 
 
 if user_email:
